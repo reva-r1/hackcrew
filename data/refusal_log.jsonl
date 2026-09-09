@@ -1,0 +1,75 @@
+{"timestamp": "2026-09-09T12:40:41.711705", "query": "What's the CEO's personal phone number?", "top_score": 0.0, "threshold": 0.44, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:40:42.697378", "query": "What's the weather today?", "top_score": 0.0, "threshold": 0.44, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:40:43.697379", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0, "threshold": 0.44, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:40:44.714344", "query": "How do I make chocolate chip cookies at home?", "top_score": 0.0, "threshold": 0.44, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:40:45.704407", "query": "What is the stock price of Apple Inc. today?", "top_score": 0.0, "threshold": 0.44, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:42:32.882802", "query": "What's the CEO's personal phone number?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:43:10.836665", "query": "What's the CEO's personal phone number?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:59:30.375643", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T12:59:44.907781", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T13:00:02.974607", "query": "What's the CEO's personal phone number?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T13:09:55.799439", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T13:11:13.318142", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T14:25:37.122025", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T14:29:13.433276", "query": "how many days it take for international shipping", "top_score": 0.2692, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T14:36:28.687141", "query": "What is the CEO's personal home address and secret phone number?", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T14:40:17.342313", "query": "how many days it takes for international orders", "top_score": 0.1763, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T14:56:28.950107", "query": "how much iphone worth?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:25:50.455910", "query": "what is the policy they are talking about", "top_score": 0.0202, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:26:15.387149", "query": "what is doucmneation related to", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:35:17.036841", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:35:22.216294", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:35:26.771229", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:35:31.798267", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:38:22.221747", "query": "explain about the policy", "top_score": 0.2015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:47:10.936093", "query": "what is this policy about?", "top_score": 0.2034, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:55:27.688510", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:55:32.706804", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:55:37.203744", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T17:55:42.191101", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T18:19:39.907658", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T18:43:19.727826", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T19:49:12.517920", "query": "explain me about this policy", "top_score": 0.1932, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:54:33.138691", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:54:38.992037", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:54:54.748048", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:54:59.962536", "query": "How much is the annual Learning & Development stipend?", "top_score": 0.2482, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:55:24.564724", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:55:30.025886", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:55:35.205635", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:55:40.493367", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T20:56:37.536065", "query": "What is the CEO's personal home address and secret phone number?", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:01:31.789385", "query": "What's the CEO's personal phone number?", "top_score": 0.0023, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:02:02.180451", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:02:31.368307", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:03:03.656125", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:03:09.921284", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:03:26.029678", "query": "What's the CEO's personal phone number?", "top_score": 0.0023, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:03:31.870453", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:03:37.522637", "query": "What is the WFH internet allowance?", "top_score": 0.0058, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:06:02.495982", "query": "What's the CEO's personal phone number?", "top_score": 0.0023, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:15:05.795176", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:15:13.165874", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:15:20.324551", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:15:27.658214", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:16:38.045680", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:16:43.867631", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:16:49.001238", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:16:54.589820", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:19:00.829202", "query": "explain or what is the policy os this company", "top_score": 0.3512, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:22:30.810389", "query": "What is the CEO's personal home address and secret phone number?", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:23:12.396654", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:23:47.526085", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:24:44.948391", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:24:50.487353", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:24:55.337378", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:25:00.728342", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:25:06.090847", "query": "What's the CEO's personal phone number?", "top_score": 0.0023, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:26:12.978141", "query": "What is the CEO's personal home address and secret phone number?", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:28:29.343687", "query": "What is the weather today?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:29:26.137889", "query": "What is the CEO's personal phone number?", "top_score": 0.0038, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:29:31.310900", "query": "What is the capital of France?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:29:35.980557", "query": "Who won the 2022 FIFA World Cup?", "top_score": 0.0015, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:29:41.155510", "query": "What is the secret recipe for chocolate chip cookies?", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:29:46.427883", "query": "What's the CEO's personal phone number?", "top_score": 0.0023, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-09T21:30:50.468698", "query": "What is the CEO's personal home address and secret phone number?", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}
