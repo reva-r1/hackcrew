@@ -77,3 +77,4 @@
 {"timestamp": "2026-09-09T23:11:13.273442", "query": "who won ipl of 2025", "top_score": 0.0, "threshold": 0.4, "reason": "insufficient_evidence"}
 {"timestamp": "2026-09-09T23:16:34.788152", "query": "who won ipl 2025", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}
 {"timestamp": "2026-09-09T23:42:34.902433", "query": "Who won the IPL in 2025? (Test Refusal Gate)", "top_score": 0.001, "threshold": 0.4, "reason": "insufficient_evidence"}
+{"timestamp": "2026-09-10T00:03:08.176854", "query": "ipl winner of 2025", "top_score": 0.0001, "threshold": 0.4, "reason": "insufficient_evidence"}

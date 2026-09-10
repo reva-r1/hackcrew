@@ -1,0 +1,340 @@
+# AETHERIS DYNAMICS INC.
+## Global Employee Policy & Operations Handbook
+**Document Identifier:** AD-HB-2024-v4.2  
+**Effective Date:** January 1, 2024  
+**Applies To:** All Global Entities & Personnel  
+
+---
+
+## 1. EMPLOYMENT CLASSIFICATIONS & WORKPLACE STANDARDS
+
+### 1.1 Employment Categories
+Every employee at Aetheris Dynamics Inc. (“the Company”) is assigned an employment category upon hire. These classifications govern eligibility for overtime, benefits, leaves of absence, and variable compensation schemes:
+
+*   **Regular Full-Time (RFT):** Employees regularly scheduled to work at least thirty-two (32) hours per week on an indefinite basis. Eligible for all statutory, medical, paid leave, and professional development benefits.
+*   **Regular Part-Time (RPT):** Employees regularly scheduled to work between twenty (20) and thirty-one (31) hours per week. Eligible for statutory benefits and pro-rated Paid Time Off (PTO); ineligible for company-subsidized health plan tiers unless mandated by municipal statute.
+*   **Temporary / Fixed-Term (TFT):** Employees engaged for an explicit, time-delimited project or seasonal capacity need not to exceed six (6) consecutive months. TFT workers receive statutory benefits only.
+*   **Exempt vs. Non-Exempt Status:** All roles are classified in accordance with the Fair Labor Standards Act (FLSA) or regional equivalent. Exempt employees receive an established salary covering all hours worked and are exempt from statutory overtime premiums. Non-exempt employees are paid hourly and qualify for overtime compensation.
+
+### 1.2 Introductory Probationary Period
+All newly hired Regular Full-Time and Regular Part-Time personnel are subject to an introductory probationary period of ninety (90) calendar days commencing on their formal start date. 
+
+A mid-point evaluation occurs at forty-five (45) calendar days with the immediate supervisor to assess performance objectives, cultural integration, and competency alignment. Successful completion of the 90-day period transitions the employee to permanent standing. The Company reserves the right to extend this probationary window by an additional thirty (30) calendar days where performance indicators are ambiguous, or to terminate employment at any juncture during this period pursuant to applicable local at-will or statutory guidelines.
+
+---
+
+## 2. WORKING HOURS, ATTENDANCE & TIME RECORDING
+
+### 2.1 Core Hours and Flextime Structure
+The standard operational workweek comprises forty (40) hours, Monday through Friday. To facilitate cross-regional asynchronous collaboration across engineering, customer operations, and corporate functions, the Company observes the following scheduling policy:
+
+*   **Core Collaboration Window:** 10:00 AM to 3:00 PM Eastern Time (ET). All full-time employees, whether colocated at corporate offices or operating remotely, are expected to be available for synchronous meetings, customer escalations, and real-time internal communications during this window.
+*   **Flexible Bandwidth:** Employees may self-select their remaining daily working hours between 6:00 AM and 8:00 PM ET, subject to direct manager approval and team operational coverage requirements.
+
+### 2.2 Time Tracking and Overtime Authorizations
+Non-exempt personnel must track all working time accurately using the Company’s designated automated time-tracking portal (Chronos HR).
+
+*   **Meal Breaks:** Non-exempt employees working shifts exceeding six (6) continuous hours are required by policy to take an unpaid meal break of at least forty-five (45) consecutive minutes. This break must be logged in Chronos HR. Performing any work tasks, answering emails, or reviewing internal messaging platforms during this designated meal period is strictly prohibited.
+*   **Overtime Thresholds:** Overtime comprises any time worked in excess of forty (40) hours within a standard payroll workweek (Sunday 00:00 through Saturday 23:59). Overtime pay is calculated at 1.5 times the employee’s regular hourly rate.
+*   **Pre-Approval Requirements:** Overtime work up to five (5) cumulative hours in a single pay period requires prior written approval from the direct manager via Chronos HR. Any planned overtime exceeding five (5) hours per pay period must be approved forty-eight (48) hours in advance by the respective Department Director. Employees working unapproved overtime will be compensated in accordance with legal mandates, but failure to secure pre-approval constitutes a policy breach subject to disciplinary action.
+
+---
+
+## 3. PAID TIME OFF (PTO), HOLIDAYS & LEAVES OF ABSENCE
+
+### 3.1 Paid Time Off (PTO) Accrual Framework
+Aetheris Dynamics operates an accrued PTO model covering vacations, casual personal needs, and minor illness days. PTO accrues semi-monthly on the 15th and the final calendar day of each month. Accrual tiers are determined by uninterrupted tenure:
+
+| Tenure Tier | Annual Accrual Rate | Accrual Per Pay Period (Semi-Monthly) | Maximum Annual Bank Cap |
+| :--- | :--- | :--- | :--- |
+| **Tier 1 (0 – 24 Months)** | 18 Work Days (144 Hours) | 6.00 Hours | 144 Hours |
+| **Tier 2 (25 – 60 Months)** | 22 Work Days (176 Hours) | 7.33 Hours | 176 Hours |
+| **Tier 3 (61+ Months)** | 26 Work Days (208 Hours) | 8.67 Hours | 208 Hours |
+
+#### Rollover and Forfeiture Rules
+A maximum of five (5) unused PTO days (40 hours) may be carried over into the following calendar year, and all rolled-over days must be fully utilized by March 31 of that subsequent year or they will be forfeited. Any accrued but unused balances in excess of five (5) days as of December 31 at 23:59 ET will lapse without financial cash-out, except where state or local municipal law explicitly forbids the forfeiture of accrued vacation wages.
+
+### 3.2 Scheduled Holidays
+The Company provides eleven (11) standard paid company holidays per calendar year, as published by People Operations during Q4 of the prior calendar year. In addition, each Regular Full-Time employee receives two (2) Floating Holidays per calendar year. Floating Holidays credit to the employee’s balance on January 1 and cannot be rolled over, cashed out, or taken during an employee’s formal resignation notice window.
+
+### 3.3 Parental Leave Policy
+Aetheris Dynamics provides comprehensive parental leave benefits to support new parents following birth, adoption, or foster placement of a child:
+
+*   **Primary Caregiver:** Eligible employees with at least six (6) months of continuous service receive fourteen (14) consecutive weeks of 100% base-salary paid leave. Primary caregiver status must be certified through formal human resources documentation.
+*   **Secondary Caregiver:** Eligible employees with at least six (6) months of continuous service receive six (6) consecutive weeks of 100% base-salary paid leave.
+*   **Usage Parameters:** Parental leave must be initiated and concluded within twelve (12) calendar months following the qualifying date of birth or legal placement. Parental leave runs concurrently with any applicable statutory Family and Medical Leave Act (FMLA) entitlements.
+
+### 3.4 Bereavement Leave
+Employees may take paid bereavement leave in the event of the death of a family member:
+
+*   **Immediate Family:** Up to five (5) consecutive business days of fully paid leave are granted upon the loss of an immediate family member (defined as a spouse, domestic partner, child, step-child, parent, sibling, or legal guardian).
+*   **Extended Family:** Up to two (2) consecutive business days of fully paid leave are granted for the loss of a grandparent, grandchild, aunt, uncle, niece, nephew, or parent-in-law.
+*   Additional unpaid leave or PTO substitution up to ten (10) working days may be requested through People Operations.
+
+### 3.5 Long-Service Sabbatical
+Employees who complete five (5) consecutive years of full-time service with Aetheris Dynamics earn a one-time, four (4) week paid sabbatical. The sabbatical must be scheduled at least six (6) months in advance and completed in a single continuous block within eighteen (18) months of achieving the 5-year tenure milestone. Sabbaticals cannot be converted to monetary payouts upon separation.
+
+---
+
+## 4. REMOTE WORK & TELECOMMUTING OPERATIONS
+
+### 4.1 Remote Eligibility & Relocation Limits
+Aetheris Dynamics offers remote-first and hybrid arrangements depending on role classification and operational necessity.
+
+*   **Eligibility Threshold:** To maintain a permanent remote work arrangement, an employee must reside in a registered business jurisdiction where the Company maintains an active corporate tax and employment nexus.
+*   **Cross-Border Temporary Work Cap:** Remote employees are permitted to work from a location outside their base country of employment for a maximum of thirty (30) calendar days per rolling 12-month window. Such arrangements require formal notification and written approval from both the direct Department Head and the People Operations Compliance Desk at least twenty-one (21) calendar days prior to departure to ensure cross-border tax, immigration, and cybersecurity compliance.
+
+### 4.2 Home Office Ergonomic Equipment & Monthly Stipends
+To support safe, ergonomic, and efficient work spaces at home, the Company provides the following allocations:
+
+*   **Standard Hardware Suite:** All remote workers are issued an enterprise laptop (choice of 16-inch Apple MacBook Pro M-Series or Lenovo ThinkPad X1 Carbon), enterprise security tokens, two (2) 27-inch 4K external monitors, a docking hub, and an encrypted external backup drive. Hardware replacements follow a strict three (3) year lifecycle refresh schedule.
+*   **Ergonomic Furniture Voucher:** Remote personnel may expense up to $350 toward an ergonomic desk chair through the Company’s procurement portal upon commencement of employment.
+*   **One-Time Home Office Setup Allowance:** A one-time gross allowance of $750 is distributed in the employee's initial monthly paycheck to subsidize home office infrastructure (e.g., desks, cable management, lighting). This payment is treated as taxable supplemental wages.
+*   **Monthly Internet Subsidy:** Eligible remote employees will receive a non-taxable monthly internet subsidy of $65, disbursed automatically through the regular payroll cycle. Receipts are not required for this recurring stipend.
+
+---
+
+## 5. TRAVEL, ENTERTAINMENT & EXPENSE REIMBURSEMENTS
+
+### 5.1 Expenditure Approval Hierarchy
+All business-related expenses must be processed using the Expensify expense reporting platform within thirty (30) calendar days of the transaction date. Reports submitted past forty-five (45) days will be denied outright, with liabilities falling to the employee.
+
+Reimbursement approvals follow this strict authorization matrix:
+
+| Expense Value Threshold | Approval Authority Level |
+| :--- | :--- |
+| **Tier 1: Up to $150.00** | Direct Manager Approval |
+| **Tier 2: $150.01 – $1,000.00** | Direct Manager + Department Head Approval |
+| **Tier 3: $1,001.00 and above** | Requires submission to the Direct Manager, endorsement by the Department Head, and final formal approval from the Vice President of Finance. |
+
+### 5.2 Air Travel Guidelines and Class-of-Service Matrix
+Employees traveling on behalf of Aetheris Dynamics must book itineraries via the Navan corporate portal at least fourteen (14) days prior to departure, whenever practicable.
+
+*   **Domestic & Short-Haul International (Under 6 Hours Duration):** Bookings are restricted strictly to standard Economy/Coach seating. Upgrades to Economy Plus or Preferred Seating are non-reimbursable personal expenditures.
+*   **Medium-Haul Flights (6 to 10 Hours Continuous Flight Time):** Employees may book Premium Economy seating.
+*   **Long-Haul Flights (Exceeding 10 Continuous Hours):** Business Class travel is strictly prohibited for domestic flights and is only authorized for non-stop international flights with a continuous flight duration exceeding ten (10) consecutive hours. Connecting legs with less than 10 hours flying duration must be booked in Economy or Premium Economy as determined by the duration of the individual leg. First Class travel is strictly prohibited across all flight categories.
+
+### 5.3 Lodging and Per Diem Allowances
+*   **Hotel Accommodations:** Nightly room rates must not exceed $250.00 per night (exclusive of local taxes) in secondary markets, or $375.00 per night in recognized tier-one metropolitan zones (defined exclusively as New York City, San Francisco, London, Tokyo, Singapore, Zurich, and Paris).
+*   **Daily Meal Per Diem Allowances:** Employees may claim actual, receipted expenses up to a maximum daily aggregate cap of $120.00. The recommended itemized allocation is structured as follows:
+    *   Breakfast: $25.00
+    *   Lunch: $35.00
+    *   Dinner: $60.00
+*   *Alcohol Policy:* Modest alcohol consumption with meals during client entertainment is allowable within the $120 per diem limit, provided the meal includes a business justification. Standalone bar tabs, minibar purchases, and personal room service alcoholic beverages will not be reimbursed.
+
+### 5.4 Personal Vehicle Mileage
+Business mileage accrued using personal vehicles is reimbursed at standard federal regulatory rates (IRS rate in the United States). Commutes from an employee’s residence to their designated primary office facility are non-reimbursable. Mileage expense submissions must attach an exported route mapping document (e.g., Google Maps) verifying start and end points and net mileage.
+
+---
+
+## 6. HEALTH, WELLNESS & PROFESSIONAL DEVELOPMENT
+
+### 6.1 Healthcare Coverage Framework
+Regular Full-Time employees become eligible for corporate healthcare plans on the first calendar day of the month following their official start date. Aetheris Dynamics offers three insurance plan models:
+1.  **PPO Gold Plan:** Comprehensive broad-network coverage with low deductible tiers, subsidized at 85% for employee premiums and 70% for dependent premiums.
+2.  **HDHP Silver with HSA:** High-deductible health plan linked to a Health Savings Account. The Company contributes an annual baseline seed of $1,000 for single enrollees or $2,000 for family coverages, distributed in quarterly tranches on the first business day of January, April, July, and October.
+3.  **EPO Standard:** In-network preferred tier offering basic preventative and illness intervention coverage.
+
+### 6.2 Tuition and Professional Development Assistance
+To foster continuous technical and leadership competency, the Company offers educational assistance:
+
+*   **Annual Cap:** Aetheris Dynamics provides up to $4,200 per calendar year in tuition and certification reimbursement for full-time employees pursuing pre-approved, job-relevant degree coursework or professional credentials from an accredited university or globally recognized industry consortium.
+*   **Eligibility and Performance Standards:** Employees must have completed at least twelve (12) consecutive months of service prior to application. To qualify for reimbursement, the employee must receive a final grade of 'B' or higher (or 'Pass' in a binary pass/fail grading structure). Course applications must be submitted sixty (60) days prior to the start of instruction.
+*   **Repayment Clawback Agreement:** If an employee voluntarily terminates employment or is dismissed for cause within twelve (12) months of receiving tuition funds, they must repay 100% of the reimbursed amount through final payroll deductions or direct electronic transfer within thirty (30) days of departure. If separation occurs between thirteen (13) and twenty-four (24) months post-disbursement, the repayment clawback rate reduces to 50%.
+
+### 6.3 Lifestyle and Wellness Stipend
+Regular Full-Time employees may claim a monthly health-and-wellness expense reimbursement of up to $75.00. Permissible items include gym memberships, fitness studio classes, athletic footwear, meditation subscriptions, or nutrition tracking platforms. This benefit is taxable and submitted via Expensify under the "Lifestyle Wellness" category with relevant itemized receipts.
+
+---
+
+## 7. CODE OF CONDUCT, HARASSMENT & WORKPLACE GRIEVANCES
+
+### 7.1 Non-Discrimination and Anti-Harassment Standards
+Aetheris Dynamics strictly prohibits discrimination, harassment, retaliation, or bullying based on race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, genetic information, veteran status, or any other protected characteristic under applicable federal, state, or municipal law.
+
+Prohibited conduct includes, but is not limited to:
+*   Unwelcome sexual advances, requests for sexual favors, or sexually suggestive remarks.
+*   Slurs, jokes, derogatory comments, or visual displays targeting protected classifications.
+*   Hostile acts or microaggressions designed to demean, isolate, or undermine team members.
+
+### 7.2 Consensual Workplace Relationships
+The Company recognizes that personal relationships may form between employees. However, conflicts of interest and power imbalances must be avoided:
+
+*   **Mandatory Disclosure Policy:** If a consensual romantic or sexual relationship develops between an employee and another worker over whom they exercise direct or indirect managerial, evaluative, or supervisory authority, both parties bear an affirmative obligation to disclose the relationship to People Operations in writing within fourteen (14) calendar days of its inception.
+*   **Operational Recusal:** People Operations will formulate a mandatory management plan, which will include reassigning reporting structures, project evaluation mechanisms, or compensation review responsibilities to eliminate conflicts of interest. Failure to report such relationships within the 14-day window constitutes grounds for disciplinary termination.
+
+### 7.3 Whistleblower Protections & Reporting Channels
+Any employee who witnesses, suspects, or experiences ethical violations, accounting fraud, harassment, data security breaches, or regulatory non-compliance is urged to report the matter immediately.
+
+Available reporting conduits include:
+1.  Direct notification to the Chief Legal Officer or People Operations Leadership.
+2.  The Aetheris Dynamics Anonymous Ethics Hotline: Accessible via toll-free phone (1-800-555-AETH) or web portal (`ethics.aetherisdynamics.internal`), available 24/7/365 with third-party administration.
+
+#### Anti-Retaliation Guarantee
+The Company strictly prohibits retaliation against any individual who submits a good-faith report or cooperates with an investigation. Anyone engaging in retaliatory behavior will be subject to immediate termination.
+
+#### Investigation Turnaround Times
+Upon receiving a formal complaint via either conduit, People Operations will launch a preliminary intake and risk evaluation within three (3) business days. Formal investigations will be concluded, and written investigative summaries delivered to executive management, within fifteen (15) business days from intake, unless complex multi-jurisdictional evidence gathering warrants an explicit written extension.
+
+---
+
+## 8. INFORMATION SECURITY, ASSET USE & INTELLECTUAL PROPERTY
+
+### 8.1 Device Security & Clean Desk Protocol
+Maintaining the confidentiality and integrity of customer data and intellectual property is an absolute requirement:
+
+*   **Screen Lockouts:** All computing devices accessing company infrastructure must be configured to automatically lock displays after five (5) minutes of user inactivity. Users are required to manually lock workstations (via shortcut keystroke) whenever stepping away from their desk.
+*   **Password Complexity:** System passwords must contain a minimum of sixteen (16) characters, incorporating uppercase letters, lowercase letters, numerals, and at least one special character. Where hardware MFA (e.g., FIDO2 YubiKeys) is not deployed, passwords must be rotated every ninety (90) calendar days. Passwords may not be reused across the last ten (10) historical iterations.
+*   **Clean Desk Policy:** At the conclusion of each working day, employees in company facilities or operating in shared co-working spaces must secure all physical documents, storage media, and whiteboard diagrams bearing proprietary data inside locked filing drawers.
+
+### 8.2 Bring Your Own Device (BYOD) Guidelines
+Employees are prohibited from accessing corporate code repositories, staging environments, production cloud infrastructure, or internal messaging architectures (Slack, Jira) from personal computers. 
+
+Smartphones accessing company email or Slack communications must install the Company’s Mobile Device Management (MDM) profile (AethSecure). The MDM configuration enforces full-disk device encryption, a 6-digit minimum device passcode, and grants the Company the capability to perform an isolated corporate wipe of company data upon employee separation.
+
+### 8.3 Intellectual Property & Invention Assignment
+Pursuant to the Proprietary Information and Inventions Agreement (PIIA) executed by all personnel upon hire:
+*   Any software, algorithm, design, documentation, process, invention, or artistic work developed by an employee during their tenure—whether on company devices or personal hardware—that relates directly to the actual or demonstrably anticipated business, products, or research of Aetheris Dynamics belongs exclusively to the Company.
+*   Employees retain rights solely to inventions created entirely on personal time, without utilizing any company equipment, facilities, trade secrets, or confidential data, and which do not relate directly to the Company’s business operations.
+
+---
+
+## 9. PERFORMANCE MANAGEMENT, GRIEVANCE & SEPARATION
+
+### 9.1 Performance Improvement Plans (PIP)
+When an employee exhibits sustained performance deficiencies or fails to achieve agreed-upon quarterly deliverables, a formal Performance Improvement Plan may be enacted:
+
+*   **Plan Duration:** A standard PIP runs for an uninterrupted duration of forty-five (45) calendar days, featuring formal bi-weekly written progress evaluations conducted jointly by the direct manager and a People Operations Business Partner.
+*   **Outcomes:** The PIP will outline precise, objective milestone metrics. Successful achievement of these objectives returns the employee to standard standing. Failure to achieve the specified performance thresholds at the conclusion of forty-five (45) days will result in immediate termination of employment, unless an extension not exceeding fifteen (15) calendar days is approved in writing by the Chief People Officer.
+
+### 9.2 Resignation and Notice Periods
+Employees wishing to depart Aetheris Dynamics in good standing must submit formal written notice to their manager and People Operations specifying their final working day:
+
+*   **Non-Exempt Employees:** Minimum of two (2) weeks (ten [10] business days) written notice.
+*   **Exempt Employees (IC through Senior Manager):** Minimum of three (3) weeks (fifteen [15] business days) written notice.
+*   **Director level and above:** A minimum of four (4) weeks (twenty [20] business days) written notice.
+
+The Company reserves the right, at its sole discretion, to accelerate the effective resignation date and provide pay in lieu of notice for the remaining duration of the stated notice period.
+
+### 9.3 Severance Entitlement Guidelines
+In the event of involuntary terminations resulting from enterprise workforce reductions, structural reorganizations, or job eliminations (unrelated to performance deficiencies, misconduct, or ethical violations), eligible full-time employees receive severance compensation subject to signing a standard release of claims:
+
+*   **Severance Formula:** Two (2) weeks of regular base pay for every full, completed year of continuous service with Aetheris Dynamics.
+*   **Minimum Floor:** A guaranteed minimum payout floor of four (4) weeks of base pay regardless of short tenure.
+*   **Maximum Ceiling:** Severance calculations are capped at an absolute maximum ceiling of twenty-four (24) weeks of base salary.
+*   **Benefits Continuity:** The Company will subsidize the employer portion of group healthcare coverage premiums (COBRA or regional equivalent) for the duration of the severance payment window.
+
+### 9.4 Exit Formalities & Offboarding
+On or before the final active working date, separating employees must surrender all corporate property, including laptops, monitors, access fobs, company credit cards, and security tokens. 
+
+Any outstanding business expense reports must be submitted within seven (7) calendar days post-separation. Final payroll payments, including payment for accrued but unused PTO (where required by regional statutory provisions), will be distributed via regular direct deposit in accordance with relevant statutory pay deadlines.
+
+---
+---
+
+# RAG EVALUATION & BENCHMARK TEST SET
+
+The following 16 test questions are formulated to evaluate retrieval, generation quality, hallucination rate, and refusal accuracy in a RAG evaluation pipeline.
+
+---
+
+## PART 1: IN-SCOPE TEST QUESTIONS (8 Total)
+*These questions are strictly, specifically answerable from the document. Each entry includes the exact verbatim source chunk/sentence to enable automated or manual retrieval scoring.*
+
+### In-Scope Question 1
+* **Question:** What is the maximum number of unused PTO days an employee can roll over into the following calendar year, and by what date must those rolled-over days be used?
+* **Expected Answer:** An employee can roll over a maximum of 5 unused PTO days (40 hours) into the following calendar year, and all rolled-over days must be used by March 31 of that subsequent year or they will be forfeited.
+* **Exact Document Section:** Section 3.1 (*Paid Time Off (PTO) Accrual Framework – Rollover and Forfeiture Rules*)
+* **Exact Supporting Source Sentence:**
+  > "A maximum of five (5) unused PTO days (40 hours) may be carried over into the following calendar year, and all rolled-over days must be fully utilized by March 31 of that subsequent year or they will be forfeited."
+
+---
+
+### In-Scope Question 2
+* **Question:** What is the annual dollar limit for tuition and certification reimbursement, and what minimum academic grade must an employee achieve to qualify for payment?
+* **Expected Answer:** The annual limit is up to $4,200 per calendar year, and the employee must earn a final grade of "B" or higher (or "Pass" in a binary pass/fail grading structure).
+* **Exact Document Section:** Section 6.2 (*Tuition and Professional Development Assistance – Annual Cap & Eligibility and Performance Standards*)
+* **Exact Supporting Source Sentences:**
+  > "Aetheris Dynamics provides up to $4,200 per calendar year in tuition and certification reimbursement for full-time employees pursuing pre-approved, job-relevant degree coursework or professional credentials from an accredited university or globally recognized industry consortium."  
+  > *"To qualify for reimbursement, the employee must receive a final grade of 'B' or higher (or 'Pass' in a binary pass/fail grading structure)."*
+
+---
+
+### In-Scope Question 3
+* **Question:** Under what specific flight conditions is an employee authorized to book Business Class air travel for company business?
+* **Expected Answer:** Business Class is only permitted for non-stop international flights with a continuous flight duration exceeding 10 consecutive hours. It is strictly prohibited on domestic flights.
+* **Exact Document Section:** Section 5.2 (*Air Travel Guidelines and Class-of-Service Matrix – Long-Haul Flights*)
+* **Exact Supporting Source Sentence:**
+  > "Business Class travel is strictly prohibited for domestic flights and is only authorized for non-stop international flights with a continuous flight duration exceeding ten (10) consecutive hours."
+
+---
+
+### In-Scope Question 4
+* **Question:** How much advance written notice must an employee at the Director level or above provide when submitting a voluntary resignation?
+* **Expected Answer:** A minimum of four (4) weeks (twenty [20] business days) written notice is required.
+* **Exact Document Section:** Section 9.2 (*Resignation and Notice Periods*)
+* **Exact Supporting Source Sentence:**
+  > "Director level and above: A minimum of four (4) weeks (twenty [20] business days) written notice."
+
+---
+
+### In-Scope Question 5
+* **Question:** What is the amount of the monthly internet stipend provided to remote employees, and what receipt documentation is required to receive it?
+* **Expected Answer:** The monthly internet subsidy is $65, and no receipts are required to receive it as it is disbursed automatically through regular payroll.
+* **Exact Document Section:** Section 4.2 (*Home Office Ergonomic Equipment & Monthly Stipends*)
+* **Exact Supporting Source Sentence:**
+  > "Eligible remote employees will receive a non-taxable monthly internet subsidy of $65, disbursed automatically through the regular payroll cycle. Receipts are not required for this recurring stipend."
+
+---
+
+### In-Scope Question 6
+* **Question:** Within how many days must a consensual romantic relationship between a manager and their direct or indirect report be reported to People Operations?
+* **Expected Answer:** The relationship must be disclosed in writing to People Operations within fourteen (14) calendar days of its inception.
+* **Exact Document Section:** Section 7.2 (*Consensual Workplace Relationships – Mandatory Disclosure Policy*)
+* **Exact Supporting Source Sentence:**
+  > "If a consensual romantic or sexual relationship develops between an employee and another worker over whom they exercise direct or indirect managerial, evaluative, or supervisory authority, both parties bear an affirmative obligation to disclose the relationship to People Operations in writing within fourteen (14) calendar days of its inception."
+
+---
+
+### In-Scope Question 7
+* **Question:** What is the standard duration of a formal Performance Improvement Plan (PIP), and how often are formal written progress evaluations conducted?
+* **Expected Answer:** The standard duration is forty-five (45) calendar days, and formal evaluations are conducted bi-weekly.
+* **Exact Document Section:** Section 9.1 (*Performance Improvement Plans (PIP) – Plan Duration*)
+* **Exact Supporting Source Sentence:**
+  > "A standard PIP runs for an uninterrupted duration of forty-five (45) calendar days, featuring formal bi-weekly written progress evaluations conducted jointly by the direct manager and a People Operations Business Partner."
+
+---
+
+### In-Scope Question 8
+* **Question:** Which approval tier applies to expense reports totaling $1,001.00 and above, and who must provide final approval?
+* **Expected Answer:** Tier 3 applies to expenses of $1,001.00 and above; it requires submission to the direct manager, endorsement by the department head, and final formal approval from the Vice President of Finance.
+* **Exact Document Section:** Section 5.1 (*Expenditure Approval Hierarchy – Table*)
+* **Exact Supporting Source Sentence:**
+  > "Tier 3 ($1,001.00 and above): Requires submission to the Direct Manager, endorsement by the Department Head, and final formal approval from the Vice President of Finance."
+
+---
+
+## PART 2: OUT-OF-SCOPE TEST QUESTIONS (8 Total)
+*These questions should be REFUSED by the system because they cannot be answered from the provided document.*
+
+### Sub-Category A: Obviously Unrelated Questions (4 Total)
+*These test whether the RAG pipeline's guardrails or refusal logic work when queries bear zero topical relevance to corporate policies or HR handbooks.*
+
+| # | Question | Ground Truth Expected Behavior |
+| :- | :--- | :--- |
+| **OOS-1** | What is the average surface temperature on Mars during its summer solstice? | **Refuse:** State that the knowledge base contains no astronomical or planetary information. |
+| **OOS-2** | Who won the 2018 FIFA Men's World Cup, and what was the final score of the championship match? | **Refuse:** State that sports records and tournament results are not covered in the knowledge base. |
+| **OOS-3** | What are the core culinary differences between French and Italian roux preparation techniques? | **Refuse:** State that culinary techniques and cooking instructions are outside the scope of the document. |
+| **OOS-4** | How do high-bypass turbofan jet engines produce forward thrust based on Newton's Third Law? | **Refuse:** State that physical sciences and aeronautical engineering principles are not covered. |
+
+---
+
+### Sub-Category B: Sneaky Adjacent Questions (4 Total)
+*These test whether the RAG pipeline hallucinates or fails gracefully when asked plausible HR/corporate policy questions that are NOT documented in the handbook.*
+
+| # | Question | Ground Truth Expected Behavior & Target Fallacy |
+| :- | :--- | :--- |
+| **OOS-5** | What is the Company's 401(k) matching percentage, and what is the vesting schedule for employer contributions? | **Refuse:** Although Section 6 covers healthcare and tuition benefits, the document does **not** specify a 401(k) retirement plan, match rate, or vesting schedule. |
+| **OOS-6** | Does Aetheris Dynamics offer a pet insurance subsidy or pet bereavement leave if an employee's domestic pet passes away? | **Refuse:** Section 3.4 covers bereavement leave strictly for immediate and extended human family, and Section 6 does **not** mention pet insurance. |
+| **OOS-7** | What is the standard relocation assistance budget and expense clawback schedule for new hires relocating to a primary corporate hub? | **Refuse:** Section 4 covers remote work and equipment allowances, and Section 6.2 mentions a tuition clawback, but there is **no** relocation policy or moving allowance documented. |
+| **OOS-8** | How many months of accelerated stock option vesting does a Director or Executive receive in the event of an involuntary termination following a corporate acquisition (Change of Control)? | **Refuse:** Section 9.3 explicitly defines cash severance calculations (weeks of pay per year of service), but equity acceleration, stock option plans, and change-of-control provisions are **not** present anywhere in the document. |
