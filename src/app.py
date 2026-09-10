@@ -43,28 +43,44 @@ def is_summarization_intent(query: str) -> bool:
         "what is this policy about",
         "what is this document about",
         "what is the policy about",
+        "what is the document about",
         "what is this about",
         "summarize this document",
         "summarize this policy",
         "summarize the policy",
         "summarize the document",
         "summarize",
+        "summary",
         "summary of this policy",
         "summary of the policy",
         "summary of this document",
+        "summary of the document",
         "policy summary",
         "overview of the policy",
         "overview of this policy",
         "overview of this document",
+        "overview of the document",
+        "overview",
+        "brief me about the document",
+        "brief me about this document",
+        "just brief me about the document",
+        "brief me",
+        "brief",
+        "give me a brief",
+        "give a brief",
+        "document overview",
         "explain the policy",
         "explain this policy",
         "explain this document",
+        "explain the document",
         "what does this policy cover",
         "what does this document cover",
         "overview of the handbook",
         "executive summary",
         "tell me about this policy",
         "tell me about the policy",
+        "tell me about this document",
+        "tell me about the document",
         "what is the policy of this company",
         "what is the policy of the company",
         "explain the company policy",
@@ -73,7 +89,7 @@ def is_summarization_intent(query: str) -> bool:
         "explain or what is the policy of this company",
         "explain the policy of this company"
     ]
-    if any(q_clean == t or q_clean.startswith(t) for t in triggers):
+    if any(q_clean == t or q_clean.startswith(t) or t in q_clean for t in triggers):
         return True
 
     return False
@@ -134,6 +150,9 @@ async def startup_event():
 STATIC_DIR = BASE_DIR / "static"
 if STATIC_DIR.exists():
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+    assets_dir = STATIC_DIR / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
 
 DOCS_DIR = DATA_DIR / "docs"
 DOCS_DIR.mkdir(parents=True, exist_ok=True)

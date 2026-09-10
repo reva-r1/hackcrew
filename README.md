@@ -1,178 +1,186 @@
-# Archivum AI — Enterprise Multi-Modal RAG Platform
+# Enterprise RAG Chatbot
 
-> **Zero-Hallucination Enterprise Search with Dual-Path Hybrid Retrieval, Universal OCR, and Real-Time Typing Match Meter.**
+An enterprise document Q&A chatbot that answers strictly from your uploaded documents — and explicitly **refuses to answer** when a question isn't covered, instead of hallucinating a confident-sounding wrong answer.
 
----
-
-## Overview
-
-**Archivum AI** is an enterprise knowledge assistant designed for mission-critical accuracy. Unlike naive RAG systems that hallucinate when information is missing, Archivum enforces a two-tier anti-hallucination refusal gate, combines exact keyword search with deep semantic embeddings, and features a live typing preview meter that shows query match strength in sub-50ms.
+Built for [Hackathon Name] in 48 hours.
 
 ---
 
-## Key Features
+## The Problem
 
-1. **Universal Multi-Format Ingestion:**
-   - Native text **PDF** processing.
-   - Computer vision OCR pipeline for **PNG, JPG, WEBP** (OpenCV deskewing & binarization + Tesseract / EasyOCR fallback).
-   - Structured **CSV** tabular parsing with row-aware semantic representations.
+Enterprise teams bury important information in scattered PDFs, policy handbooks, and SOPs. Generic chatbots either can't find the right answer, or — worse — make one up. In an enterprise setting, a hallucinated policy answer is a real liability, not just an inconvenience.
 
-2. **Dual-Path Cognitive Query Routing:**
-   - **Broad Executive Summarization:** Automatically identifies overview queries and synthesizes multi-section summaries across documents.
-   - **Pinpoint Fact Extraction:** Searches specific facts using hybrid retrieval and neural reranking.
-
-3. **Hybrid Sparse + Dense Retrieval (RRF):**
-   - Combines exact lexical matching (BM25Okapi for numbers, codes, and acronyms) with dense semantic embeddings (`all-MiniLM-L6-v2` in ChromaDB) via Reciprocal Rank Fusion.
-
-4. **Neural Cross-Encoder & Anti-Hallucination Refusal Gate:**
-   - Evaluates retrieved candidates with `cross-encoder/ms-marco-MiniLM-L-6-v2`.
-   - Hard 0.40 confidence safety threshold: queries below 0.40 are deterministically refused with complete audit logging.
-   - Generative consistency guard (`is_negative_answer`): prevents the model from returning high confidence when the context lacks the facts.
-
-5. **Live Keystroke Match Meter (`/preview-confidence`):**
-   - Real-time debounced confidence preview updating in sub-50ms as the user types, before submitting the query.
-
-6. **Editorial Glassmorphism UI:**
-   - Dark-mode executive workspace with Cabinet Grotesk / Inter typography, rich source citation badges, and drag-and-drop document upload vault.
+This project answers questions strictly from a company's own documents, and is honest when it doesn't know something.
 
 ---
 
-## System Architecture
+## What It Does
 
-```
-                                +---------------------------+
-                                |  Editorial Web UI / API   |
-                                +-------------+-------------+
-                                              |
-                     +------------------------+------------------------+
-                     | (POST /upload)         | (POST /preview-conf)   | (POST /query)
-                     v                        v                        v
-        +-------------------------+  +-------------------+  +-------------------------+
-        | Universal Parser & OCR  |  | Sub-50ms Cosine   |  | Dual-Path Router        |
-        | - PDF, Images, CSV      |  | Vector Preview    |  | - Summarize vs Fact     |
-        +------------+------------+  +-------------------+  +------------+------------+
-                     |                                                   |
-                     v                                                   v
-        +-------------------------+                         +-------------------------+
-        | Dual Storage Layer      |                         | Hybrid Retrieval (RRF)  |
-        | - SQLite Metadata       |                         | - BM25Okapi (Sparse)    |
-        | - ChromaDB Vectors      |                         | - ChromaDB (Dense)      |
-        +-------------------------+                         +------------+------------+
-                                                                         |
-                                                                         v
-                                                            +-------------------------+
-                                                            | Neural Cross-Encoder    |
-                                                            | (ms-marco-MiniLM-L-6-v2)|
-                                                            +------------+------------+
-                                                                         |
-                                                                         v
-                                                            +-------------------------+
-                                                            | 0.40 Confidence Gate    |
-                                                            | < 0.40 -> Deterministic |
-                                                            |           Refusal       |
-                                                            | >= 0.40 -> LLM Generate |
-                                                            +-------------------------+
-```
+- Upload internal documents (PDF, CSV, tabular data)
+- Ask questions in natural language
+- Get answers grounded in the actual document content, with citations back to the exact source page/section
+- If a question isn't covered by the uploaded docs, the system **deterministically refuses to answer** rather than guessing
 
 ---
 
-## Quickstart
+## Architecture
 
-### 1. Prerequisites
-- Python 3.10+
-- (Optional) Tesseract OCR installed on your system for image OCR.
+### Ingestion Pipeline (runs once per uploaded document)
 
-### 2. Installation
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/your-org/archivum-ai.git
-cd archivum-ai
-pip install -r requirements.txt
+```
+Upload → Clean/Parse → Chunk (300-500 tokens, ~50 token overlap)
+       → Embed → Store in Vector DB + BM25 index (metadata: doc name, page number)
 ```
 
-### 3. Environment Setup
-Copy the example environment file:
-```bash
-cp .env.example .env
+### Query Pipeline (runs per question)
+
+```
+Question → Hybrid Search (Vector + BM25, Reciprocal Rank Fusion)
+         → Cross-Encoder Reranking
+         → Confidence-Gated Refusal Check
+         → Answer Generation (with citations)  OR  Deterministic Refusal
 ```
 
-### 4. Run the Server
-Launch the FastAPI application:
-```bash
-python run_server.py
-```
-Open your browser and navigate to:
-```
-http://localhost:8000
-```
+Two distinct query paths:
+- **Specific-fact questions** ("What is the WFH internet allowance?") → standard retrieve → rerank → answer flow
+- **Broad/summarization questions** ("What is this policy about?") → separate synthesis path that pulls multiple sections, since no single chunk represents an entire document
 
 ---
 
-## Automated Testing
+## Why Deterministic Refusal, Not LLM-Judged Refusal
 
-Run the full pytest suite (100% passing across 14 test suites):
-```bash
-pytest tests/
+Most RAG systems either always answer, or use a second LLM call to "judge" whether the first answer is trustworthy. That approach is slower (extra API call per query), non-deterministic (an LLM judging an LLM can itself be wrong), and adds a second point of failure.
+
+This system instead gates on **retrieval confidence** — a numeric threshold applied to the reranked similarity score. It's:
+- Deterministic and explainable in one sentence
+- Fast — no extra LLM call
+- Not something that can be talked out of it by clever prompting
+
+---
+
+## Tech Stack
+
+| Component | Tool | Why |
+|---|---|---|
+| Generation LLM | Groq API (Llama 3.3 70B) | Free tier, extremely fast (500+ tok/s), no GPU cost |
+| Embeddings | sentence-transformers (`all-MiniLM-L6-v2`) | Free, runs locally on CPU |
+| Reranking | Cross-encoder (`ms-marco-MiniLM-L-6-v2`) | Free, local, improves retrieval precision |
+| Keyword search | `rank_bm25` | Classic keyword scoring, complements vector search |
+| Storage | SQLite (metadata) + local vector store | Lightweight, no external DB dependency |
+| Backend | FastAPI | Fast to build, async-friendly |
+| Frontend | React 18 + Vite | Humanistic editorial UI, dark/light themes, live preview |
+
+No model training or fine-tuning required — every component is either a pretrained local model or a free hosted API.
+
+---
+
+## API Endpoints
+
+### `POST /upload`
+Uploads and ingests a document (PDF/CSV).
+
+```json
+{
+  "doc_id": "e794c92e",
+  "doc_name": "policy.pdf",
+  "chunks_created": 12,
+  "status": "success"
+}
 ```
 
-Individual test suites:
-- `pytest tests/test_step4_dual_paths.py` (Dual-path summarization & refusal test)
-- `pytest tests/test_csv_ingestion.py` (CSV table ingestion & query test)
-- `pytest tests/test_ocr.py` (Computer vision OCR pipeline test)
-- `pytest tests/test_preview_confidence.py` (Live match meter calibration test)
-- `pytest tests/test_step5_api.py` (REST API endpoint verification)
-- `pytest tests/test_universal_ocr_upload.py` (End-to-end multi-format upload & RAG test)
+### `POST /query`
+Asks a question against ingested documents.
+
+```json
+{
+  "status": "answered",
+  "answer": "...",
+  "confidence": 0.87,
+  "sources": [
+    { "doc_name": "policy.pdf", "page_num": 4, "snippet": "..." }
+  ]
+}
+```
+
+Possible `status` values: `answered`, `refused`, `error`.
+
+### `POST /preview-confidence`
+Lightweight live-typing endpoint — returns a match-strength score as the user types, before they submit the full question. No LLM call; vector search only, optimized for sub-200ms response.
+
+```json
+{ "score": 82, "status": "strong_match" }
+```
+
+Full field-level contract lives in `docs/api-response-schema.md`.
+
+---
+
+## What Makes This Different
+
+- **Deterministic, math-based refusal** instead of a second LLM judging the first
+- **Dual query paths** for specific facts vs. broad summarization — most RAG hackathon projects only handle one well
+- **Live confidence preview** while typing, before the question is even submitted
+- **Zero training cost** — fully reproducible on free-tier tools, no GPU required
+- **Tested, not just demoed** — automated test suite covering ingestion, retrieval accuracy, refusal correctness, and API contracts; real issues (cross-document retrieval contamination, threshold miscalibration) were caught and fixed during testing, not discovered live
 
 ---
 
 ## Project Structure
 
 ```
-├── .env.example              # Environment variables template
-├── .gitignore                # Git ignore rules for clean commits
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-├── docs/                     # Specifications & presentation slide deck
-│   ├── ppt.md                # Simplified slide deck & presentation reference
-│   ├── api-response-schema.md# REST API contract specification
-│   ├── ingestion-pipeline-spec.md # OCR & ingestion architecture spec
-│   └── rag-tier1-tier2-buildspec.md # Dual-path & refusal gate spec
-│
-├── src/                      # Core backend application
-│   ├── app.py                # FastAPI routes & query router
-│   ├── bm25_index.py         # BM25Okapi keyword search
-│   ├── config.py             # Global thresholds & settings
-│   ├── database.py           # SQLite persistence layer
-│   ├── generator.py          # Grounded LLM response synthesizer
-│   ├── hybrid_search.py      # Reciprocal Rank Fusion
-│   ├── ingestion.py          # Chunking & indexing coordinator
-│   ├── refusal.py            # Anti-hallucination refusal & audit logs
-│   ├── reranker.py           # Cross-encoder neural reranker
-│   ├── universal_parser.py   # Multi-format document parser
-│   ├── vector_store.py       # ChromaDB vector store
-│   └── ocr/                  # Computer vision OCR subsystem
-│
-├── static/                   # Editorial glassmorphic web UI
-│   ├── index.html            # Web interface layout
-│   ├── style.css             # Glassmorphic CSS styling
-│   ├── app.js                # Frontend state machine & live match meter
-│   └── hero_vault.jpg        # Editorial hero graphic
-│
-├── tests/                    # 14 automated pytest suites
-│
-├── data/                     # Ingested indices & persistent storage
-│   ├── chroma_db/            # Vector embeddings
-│   ├── docs/                 # Document storage
-│   ├── test_assets/          # Sample images for testing
-│   ├── rag_storage.db        # SQLite database
-│   └── bm25_index.pkl        # BM25 serialized index
-│
-└── scripts/                  # Developer CLI tools
-    ├── ask.py                # Terminal interactive query client
-    └── create_test_images.py # Generator for synthetic test assets
+.
+├── src/
+│   ├── app.py                # FastAPI app, /query, /upload endpoints
+│   ├── config.py             # Global settings & thresholds
+│   ├── ingestion.py          # Chunking, embedding, indexing
+│   ├── hybrid_search.py      # Hybrid search (Dense + BM25)
+│   ├── reranker.py           # Cross-encoder reranking
+│   ├── refusal.py            # Confidence-gate logic
+│   └── ocr/                  # Document parsing & OCR pipeline
+├── frontend/                 # React + Vite application
+├── static/                   # Compiled frontend assets served by FastAPI
+├── tests/                    # Pytest suite
+├── data/                     # Local storage & documents
+├── docs/                     # Specifications and API contracts
+└── README.md
 ```
 
 ---
 
-## License
-MIT License.
+## Running Locally
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Configure .env file
+GROQ_API_KEY=your_key_here
+
+# 3. Run the application
+python run_server.py
+```
+
+Server runs at `http://localhost:8000`. Full endpoint docs at `http://localhost:8000/docs` (FastAPI auto-generated).
+
+---
+
+## Testing
+
+```bash
+pytest tests/
+```
+
+Covers document ingestion, hybrid retrieval, confidence-gate accuracy on labeled in-scope/out-of-scope test sets, and API contract validation.
+
+---
+
+## Team
+
+- **Backend / RAG pipeline / ML:** [Your name]
+- **Frontend:** [Teammate names]
+
+---
+
+## Built For
+
+[Hackathon name, date, and any track/category info]
