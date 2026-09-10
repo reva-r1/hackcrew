@@ -248,7 +248,7 @@ export default function UploadPage({ onGoToLanding, onGoToAudit, onGoToChat, onU
               }}
             >
               <Database size={16} color="var(--primary)" />
-              <span>View Document Breakdown</span>
+              <span>View Audit Log</span>
             </button>
 
             <button

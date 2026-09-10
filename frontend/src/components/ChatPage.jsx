@@ -164,7 +164,7 @@ export default function ChatPage({ onGoToUpload, onGoToAudit }) {
           }}
         >
           <Database size={14} color="var(--primary)" />
-          <span>View Document Breakdown</span>
+          <span>View Audit Log</span>
         </button>
       </div>
 

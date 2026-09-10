@@ -104,7 +104,7 @@ export default function Header({
             }}
           >
             <Database size={14} />
-            <span>Document Breakdown</span>
+            <span>Audit Log</span>
             {totalChunks > 0 && (
               <span style={{
                 fontSize: '0.7rem',

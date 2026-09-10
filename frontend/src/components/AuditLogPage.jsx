@@ -127,10 +127,10 @@ export default function AuditLogPage({ onGoToChat, onGoToUpload }) {
       {/* Title */}
       <div style={{ marginBottom: '24px' }}>
         <h2 style={{ fontSize: '2.4rem', fontWeight: '400', marginBottom: '6px' }}>
-          Document Breakdown
+          Audit Log
         </h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1rem' }}>
-          Here is how your documents were read, organized into sections, and prepared for questions.
+          Inspect every extracted chunk, extraction coordinate, and system retrieval activity event.
         </p>
       </div>
 
